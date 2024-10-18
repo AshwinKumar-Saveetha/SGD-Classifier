@@ -1,4 +1,4 @@
-# SGD-Classifier
+# Implementation of Logistic Regression Using SGD Classifier
 ## AIM:
 To write a program to predict the type of species of the Iris flower using the SGD Classifier.
 
@@ -7,11 +7,16 @@ To write a program to predict the type of species of the Iris flower using the S
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. Import Necessary Libraries and Load Data
-2. Split Dataset into Training and Testing Sets
-3. Train the Model Using Stochastic Gradient Descent (SGD)
-4. Make Predictions and Evaluate Accuracy
-5. Generate Confusion Matrix
+
+1. **Load Data**: Import the Iris dataset.
+2. **Create DataFrame**: Convert the dataset into a Pandas DataFrame and include target labels.
+3. **Define Features and Target**: Separate features (`X`) and target variable (`y`).
+4. **Split Data**: Divide the dataset into training and testing sets (80/20).
+5. **Initialize SGD Classifier**: Create an instance of `SGDClassifier`.
+6. **Train Model**: Fit the model on the training data.
+7. **Make Predictions**: Use the model to predict the species on the test set.
+8. **Evaluate Accuracy**: Calculate the accuracy of predictions.
+9. **Confusion Matrix**: Generate and display the confusion matrix.
 
 ## Program:
 ```
